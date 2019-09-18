@@ -99,22 +99,15 @@ body {
 .detail-image-container {
   flex: 1 1 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.detail-image-buttons {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.detail-image-buttons button {
+.detail-image-container button {
   font-family: sans-serif;
   font-size: 18px;
-  width: 120px;
+  width: 40px;
   padding: 4px;
 }
 
